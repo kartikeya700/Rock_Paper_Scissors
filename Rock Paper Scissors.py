@@ -30,10 +30,10 @@ def main():
     if choice >= 3 or choice < 0:
         print("You enetred an invalid number, please try again.")
     else:
+        print(Choice[choice])
         print("Computer chose: \n")
         print(Choice[computer])
-        print(Choice[choice])
-        elif choice == 0 and computer == 2:
+        if choice == 0 and computer == 2:
             print("You win!")
         elif computer == 0 and choice == 2:
             print("You lose")
